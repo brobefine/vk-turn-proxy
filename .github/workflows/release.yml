@@ -47,9 +47,7 @@ jobs:
             goarch: arm
             cgo: 1
             api: 21
-          - goos: freebsd
-            goarch: amd64
-            cgo: 0
+        
 
     steps:
       - name: Check out code
